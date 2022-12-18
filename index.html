@@ -1,44 +1,86 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <style>
+    img.background {
+      position:absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      -webkit-filter: blur(5px);
+    }
+  </style>
+
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <h1>Ardfetto</h1>
+    <header>
     <nav>
+      <a href="#">About Us</a>
+      <a href="#">The Team</a>
+      <a href="#">Contact</a>
     </nav>
-  </header>
+    </header>
 
   <!-- hero banner -->
+
   <section class="hero-banner">
-    <div>
-      <h2>Ultrasound AI</h2>
-    </div>
+      <h1>Ardfetto</h1>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <h2>About Us</h2>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat ipsum vitae mauris pulvinar, sed semper nunc iaculis. Maecenas posuere nibh nec augue egestas, sed bibendum lacus hendrerit. Morbi efficitur, augue eu sagittis scelerisque, ante massa imperdiet odio, sit amet iaculis purus orci a arcu. Quisque nec nisl in nunc consequat sagittis. Cras varius commodo ullamcorper. Nam laoreet dolor a condimentum aliquam. Aenean rhoncus mi mauris, vitae auctor enim convallis sed. Etiam nec sapien a lacus tempus malesuada quis sed augue. Etiam pretium commodo commodo. .</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat ipsum vitae mauris pulvinar, sed semper nunc iaculis. Maecenas posuere nibh nec augue egestas, sed bibendum lacus hendrerit. Morbi efficitur, augue eu sagittis scelerisque, ante massa imperdiet odio, sit amet iaculis purus orci a arcu. Quisque nec nisl in nunc consequat sagittis. Cras varius commodo ullamcorper. Nam laoreet dolor a condimentum aliquam. Aenean rhoncus mi mauris, vitae auctor enim convallis sed. Etiam nec sapien a lacus tempus malesuada quis sed augue. Etiam pretium commodo commodo. </p>
+      </div>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <h2>The Team</h2>
+      <div class="flex-container">
+        <a href="" class="flex-item Founder">
+          <div>
+            <h3>Founder</h3>
+            <span>Commercial activities</span>
+            <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat ipsum vitae mauris pulvinar, sed semper nunc iaculis. Maecenas posuere nibh nec augue egestas, sed bibendum lacus hendrerit. Morbi efficitur, augue eu sagittis scelerisque, ante massa imperdiet odio, sit amet iaculis purus orci a arcu. Quisque nec nisl in nunc consequat sagittis. Cras varius commodo ullamcorper. Nam laoreet dolor a condimentum aliquam. Aenean rhoncus mi mauris, vitae auctor enim convallis sed. Etiam nec sapien a lacus tempus malesuada quis sed augue. Etiam pretium commodo commodo.</p>
+          </div>
+        </a>
+        <a href="" class="flex-item Doctor">
+          <div>
+            <h3>Doctor</h3>
+            <span>Clinical trials</span>
+            <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat ipsum vitae mauris pulvinar, sed semper nunc iaculis. Maecenas posuere nibh nec augue egestas, sed bibendum lacus hendrerit. Morbi efficitur, augue eu sagittis scelerisque, ante massa imperdiet odio, sit amet iaculis purus orci a arcu. Quisque nec nisl in nunc consequat sagittis. Cras varius commodo ullamcorper. Nam laoreet dolor a condimentum aliquam. Aenean rhoncus mi mauris, vitae auctor enim convallis sed. Etiam nec sapien a lacus tempus malesuada quis sed augue. Etiam pretium commodo commodo.</p>
+          </div>
+        </a>
+      </div>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+      <h2>Contact Us</h2>
+      <div class="flex-container">
+          <div>
+            <h4>Address</h4>
+            <a href="https://www.google.co.uk/maps/place/144-146+King's+Cross+Rd,+London+WC1X+9DU/@51.5304891,-0.1194405,17z/data=!3m1!4b1!4m5!3m4!1s0x48761b475441046d:0x5bd6bbd848b2dfd2!8m2!3d51.5304858!4d-0.1172465">1/F, 144-146 Kings Cross Road, London WC1X 9DU, U.K.</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4>Email</h4>
+            <a href="#"> info@ardfetto.com</a>
+          </div>
     </section>
   </main>
 </body>
